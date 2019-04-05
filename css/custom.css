@@ -2,4 +2,5 @@
 body {
     padding-top: 3.5rem;
   }
-  
+
+  .viz_list .col-md-3 img{ max-width: 100%;}
