@@ -1,4 +1,6 @@
-h1{}
+@import url('https://fonts.googleapis.com/css?family=Vidaloka'); /* font-family: 'Vidaloka', serif; */
+h1{font-family: 'Vidaloka', serif; color:#09aca5;}
+h2{font-family: 'Vidaloka', serif; color:#09aca5; padding-bottom: 30px; border-bottom: 1px solid #ededed; }
 body {
     padding-top: 3.5rem;
   }
