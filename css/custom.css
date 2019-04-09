@@ -2,5 +2,6 @@
 body { padding-top: 3.5rem;}
 h1{ font-family: 'Lora', serif; color:#09aca5; font-weight: 600;}
 h2{ font-family: 'Lora', serif; color:#09aca5; font-weight: 600; padding-bottom:20px; margin-bottom: 20px; border-bottom: 1px solid #ededed; }
-.viz_list .col-md-3 img{ max-width: 100%;}
-.viz_list .col-md-3 img:hover{opacity: .75;}
+.viz_list img{ border: 2px solid #FFFFFF; max-width: 100%;}
+.viz_list img.active{border:2px solid #09aca5; }
+.viz_list img:hover{opacity: .75;}
