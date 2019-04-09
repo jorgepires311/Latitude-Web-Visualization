@@ -7,4 +7,4 @@ h2{ font-family: 'Lora', serif; color:#09aca5; font-weight: 600; padding-bottom:
 .viz_list img:hover{opacity: .75;}
 img.analysis{ max-width: 100%; width: 80%; margin: 0 auto; display: block; }
 
-table.dataTable thead .sorting_asc::after{display: none;}
+table.dataTable thead .sorting_asc::after,table.dataTable thead .sorting::after{display: none;}
