@@ -70,15 +70,6 @@
   <div class="row">      
     <div class="col-md-12">
         <div id="table-container"></div>
-        <script>
-            CsvToHtmlTable.init({
-              csv_path: 'resources/cities.csv', 
-              element: 'table-container', 
-              allow_download: true,
-              csv_options: {separator: ',', delimiter: '"'},
-              datatables_options: {"paging": false}
-            });
-          </script>
 
     </div>
   </div>
@@ -113,5 +104,15 @@
       <script type="text/javascript" src="js/jquery.dataTables.min.js"></script>
       <script type="text/javascript" src="js/dataTables.bootstrap.js"></script>
       <script type="text/javascript" src="js/csv_to_html_table.js"></script>
+      <script>
+          CsvToHtmlTable.init({
+            csv_path: 'resources/cities.csv', 
+            element: 'table-container', 
+            allow_download: true,
+            csv_options: {separator: ',', delimiter: '"'},
+            datatables_options: {"paging": false}
+          });
+        </script>
+
     </body>
 </html>
