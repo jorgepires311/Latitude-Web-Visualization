@@ -1,8 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=Vidaloka'); /* font-family: 'Vidaloka', serif; */
-h1{font-family: 'Vidaloka', serif; color:#09aca5;}
-h2{font-family: 'Vidaloka', serif; color:#09aca5; padding-bottom: 30px; border-bottom: 1px solid #ededed; }
-body {
-    padding-top: 3.5rem;
-  }
-
-  .viz_list .col-md-3 img{ max-width: 100%;}
+@import url('https://fonts.googleapis.com/css?family=Lora'); /* font-family: 'Lora', serif; */
+body { padding-top: 3.5rem;}
+h1{ font-family: 'Lora', serif; color:#09aca5;}
+h2{ font-family: 'Lora', serif; color:#09aca5; padding-bottom:20px; margin-bottom: 20px; border-bottom: 1px solid #ededed; }
+.viz_list .col-md-3 img{ max-width: 100%;}
