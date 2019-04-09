@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Lora'); /* font-family: 'Lora', serif; */
 body { padding-top: 3.5rem;}
-h1{ font-family: 'Lora', serif; color:#09aca5;}
-h2{ font-family: 'Lora', serif; color:#09aca5; padding-bottom:20px; margin-bottom: 20px; border-bottom: 1px solid #ededed; }
+h1{ font-family: 'Lora', serif; color:#09aca5; font-weight: 600;}
+h2{ font-family: 'Lora', serif; color:#09aca5; font-weight: 600; padding-bottom:20px; margin-bottom: 20px; border-bottom: 1px solid #ededed; }
 .viz_list .col-md-3 img{ max-width: 100%;}
+.viz_list .col-md-3 img:hover{opacity: .75;}
