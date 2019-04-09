@@ -5,3 +5,4 @@ h2{ font-family: 'Lora', serif; color:#09aca5; font-weight: 600; padding-bottom:
 .viz_list img{ border: 2px solid #FFFFFF; max-width: 100%;}
 .viz_list img.active{border:2px solid #09aca5; }
 .viz_list img:hover{opacity: .75;}
+img.analysis{ max-width: 100%; width: 80%; margin: 0 auto; display: block; }
