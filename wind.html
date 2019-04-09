@@ -6,7 +6,7 @@
     <meta name="description" content="">
     <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
     <meta name="generator" content="Jekyll v3.8.5">
-    <title>Jorge Pires - Latitude</title>
+    <title>Wind Speed - Jorge Pires - Latitude</title>
     <!-- Bootstrap core CSS -->
 <link href="css/bootstrap.css" rel="stylesheet">
 <link href="css/custom-table.css" rel="stylesheet">
@@ -43,12 +43,12 @@
     <ul class="navbar-nav mr-auto">
       
       <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Plots</a>
+            <a class="nav-link dropdown-toggle active" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Plots</a>
             <div class="dropdown-menu" aria-labelledby="dropdown01">
               <a class="dropdown-item" href="/Latitude-Web-Visualization/temperature.html">Max Temperature</a>
               <a class="dropdown-item" href="/Latitude-Web-Visualization/humidity.html">Humidity</a>
               <a class="dropdown-item" href="/Latitude-Web-Visualization/cloudiness.html">Cloudiness</a>
-              <a class="dropdown-item" href="/Latitude-Web-Visualization/windspeed.html">WindSpeed</a>
+              <a class="dropdown-item active" href="/Latitude-Web-Visualization/windspeed.html">WindSpeed</a>
             </div>
           </li>
       <li class="nav-item">
@@ -64,39 +64,33 @@
   <!-- Main jumbotron for a primary marketing message or call to action -->
   <div class="jumbotron">
     <div class="container">
-      <h1 class="display-3">Summary: Latitude vs. X</h1>
-      <p>This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
-      <!-- <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more &raquo;</a></p> -->
+      <h1 class="display-3">Wind Speed</h1>
     </div>
   </div>
-  <div class="container viz_list">
-<div class="row"><div class="col-md-12"><h1>Visualizations</h1></div></div>
-    <div class="row">
-      <div class="col-md-6">
-        <h2>Max Temperature</h2>
-        <img src="img/Latitude-vs-Temperature-Plot.png">
-        <p><a class="btn btn-secondary" href="/Latitude-Web-Visualization/temperature.html" role="button">View details &raquo;</a></p>
-      </div>
-      <div class="col-md-6">
-        <h2>Humidity</h2>
-        <img src="img/Latitude-vs-Humidity-Plot.png">
-        <p><a class="btn btn-secondary" href="/Latitude-Web-Visualization/humidity.html" role="button">View details &raquo;</a></p>
-      </div>
-    </div>
-      <div class="row">
-      <div class="col-md-6">
-        <h2>Cloudiness</h2>
-        <img src="img/Latitude-vs-Cloudiness-Plot.png">
-        <p><a class="btn btn-secondary" href="/Latitude-Web-Visualization/cloudiness.html" role="button">View details &raquo;</a></p>
-      </div>
-      <div class="col-md-6">
-        <h2>Wind Speed</h2>
-        <img src="img/Latitude-vs-Wind-Speed-Plot.png">
-        <p><a class="btn btn-secondary" href="/Latitude-Web-Visualization/wind.html" role="button">View details &raquo;</a></p>
-      </div>
-    </div>
-    <hr>
-  </div> <!-- /container -->
+  <div class="container">
+    <div class="row"><div class="col-md-12">
+      <p>The comparison of the wind speed and the humidity plots suggest that there maybe a correlation between high humidity and low wind speeds. The bulk of wind speeds are under 15MPH while a strong percentage of the humidity levels is above 60%.</p>
+      <img src="img/Latitude-vs-Temperature-Plot.png"><p>&nbsp;</p>
+    </div></div>
+  </div>
+ <div class="container viz_list">
+    <div class="row"><div class="col-md-12"><h2>Visualizations</h2></div></div>
+        <div class="row">
+          <div class="col-md-3">
+            <a href="/Latitude-Web-Visualization/temperature.html"><img src="img/Latitude-vs-Temperature-Plot.png"></a>
+          </div>
+          <div class="col-md-3">
+            <a href="/Latitude-Web-Visualization/humidity.html"><img src="img/Latitude-vs-Humidity-Plot.png"></a>
+          </div>
+          <div class="col-md-3">
+            <a href="/Latitude-Web-Visualization/cloudiness.html"><img class="active" src="img/Latitude-vs-Cloudiness-Plot.png"></a>
+          </div>
+          <div class="col-md-3">
+            <a chref="/Latitude-Web-Visualization/wind.html"></a><img class="active" src="img/Latitude-vs-Wind-Speed-Plot.png"></a>
+          </div>
+        </div>
+        <hr>
+      </div> <!-- /container -->
 </main>
 <footer class="container">
   <p>&copy; Jorge Pires - 2019</p>
